@@ -2,7 +2,7 @@
   "python.testing.unittestArgs": [
     "-v",
     "-s",
-    "./auction",
+    "./AbanGasPart",
     "-p",
     "*test.py"
   ],
