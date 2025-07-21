@@ -1,3 +1,8 @@
+:root {
+  --secondary-color: white; 
+}
+
+
 * {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -24,16 +29,16 @@
 }
 
 .gallery {
-  color: #fbceb5;
+  color: var(--secondary-color);
 }
 
 .image {
   width: 28%;
-  border: 1.5px solid #fbceb5;
+  border: 1.5px solid var(--secondary-color);
   padding: 10px;
   margin: 2% 1.5%;
   flex-grow: 0;
-  background-color: #fbceb5;
+  background-color: var(--secondary-color);
   border-radius: 10px;
 
 }
@@ -61,7 +66,7 @@
 }
 
 .item-partision {
-  background-color: #fbceb5;
+  background-color: var(--secondary-color);
   position: relative;
   margin: auto;
   border-radius: 10px;

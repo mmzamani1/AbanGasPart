@@ -1,3 +1,8 @@
+:root {
+  --secondary-color: white; 
+}
+
+
 body {
     font-family: "icomoon", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     background-color: #292828;
@@ -57,7 +62,7 @@ a {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
-    color: #fbceb5;
+    color: var(--secondary-color);
 }
 
 a:hover,
@@ -158,7 +163,7 @@ a:focus {
 }
 
 .select-box option {
-    background-color: #fbceb5;
+    background-color: var(--secondary-color);
     color: black;
 }
 
@@ -278,11 +283,11 @@ textarea.form-control {
 
 /* Style the checkmark/indicator */
 .checkbox-primary {
-    color: #fbceb5;
+    color: var(--secondary-color);
 }
 
 .checkbox-primary input:checked~.checkmark:after {
-    color: #fbceb5;
+    color: var(--secondary-color);
 }
 
 .btn {
@@ -301,26 +306,26 @@ textarea.form-control {
 }
 
 .btn.btn-primary {
-    background: #fbceb5 !important;
-    border: 1px solid #fbceb5 !important;
+    background: var(--secondary-color) !important;
+    border: 1px solid var(--secondary-color) !important;
     color: #000 !important;
 }
 
 .btn.btn-primary:hover {
-    border: 1px solid #fbceb5;
+    border: 1px solid var(--secondary-color);
     background: transparent;
-    color: #fbceb5;
+    color: var(--secondary-color);
 }
 
 .btn.btn-primary.btn-outline-primary {
-    border: 1px solid #fbceb5;
+    border: 1px solid var(--secondary-color);
     background: transparent;
-    color: #fbceb5;
+    color: var(--secondary-color);
 }
 
 .btn.btn-primary.btn-outline-primary:hover {
     border: 1px solid transparent;
-    background: #fbceb5;
+    background: var(--secondary-color);
     color: #fff;
 }
 
@@ -463,7 +468,7 @@ textarea.form-control {
     top: 100%;
     position: absolute;
     text-align: left;
-    border-top: 2px solid #fbceb5;
+    border-top: 2px solid var(--secondary-color);
     -webkit-box-shadow: 0 2px 20px -2px rgba(0, 0, 0, 0.2);
     box-shadow: 0 2px 20px -2px rgba(0, 0, 0, 0.2);
     padding: 0px 0;
@@ -512,7 +517,7 @@ textarea.form-control {
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown a.active {
     background: #ebeef0;
-    color: #fbceb5;
+    color: var(--secondary-color);
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown>li {
@@ -539,7 +544,7 @@ textarea.form-control {
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown>li.has-children>a.active {
     background: #ebeef0;
-    color: #fbceb5;
+    color: var(--secondary-color);
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown>li.has-children>.dropdown,
@@ -595,7 +600,7 @@ textarea.form-control {
 
 .site-navbar .site-navigation .site-menu.site-menu-dark>li>a:hover,
 .site-navbar .site-navigation .site-menu.site-menu-dark>li>a.active {
-    color: #fbceb5;
+    color: var(--secondary-color);
     position: relative;
 }
 
@@ -701,7 +706,7 @@ textarea.form-control {
 }
 
 .site-mobile-menu .site-nav-wrap a:hover {
-    color: #fbceb5;
+    color: var(--secondary-color);
     text-decoration: none;
 }
 
@@ -896,7 +901,7 @@ textarea.form-control {
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu>li>a:after {
     height: 2px;
-    background: #fbceb5;
+    background: var(--secondary-color);
     content: "";
     position: absolute;
     bottom: 0;
@@ -912,7 +917,7 @@ textarea.form-control {
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu>li>a:hover,
 .sticky-wrapper.is-sticky .site-navbar .site-menu>li>a.active {
-    color: #fbceb5;
+    color: var(--secondary-color);
     position: relative;
 }
 
@@ -943,8 +948,8 @@ textarea.form-control {
 
 .btn.btn-primary {
     color: #fff;
-    background: #fbceb5;
-    border-color: #fbceb5;
+    background: var(--secondary-color);
+    border-color: var(--secondary-color);
 }
 
 .btn.btn-primary:hover {
@@ -965,12 +970,12 @@ textarea.form-control {
 }
 
 .btn.btn-outline-primary {
-    color: #fbceb5;
+    color: var(--secondary-color);
 }
 
 .btn.btn-outline-primary:hover {
     color: #fff;
-    background: #fbceb5;
+    background: var(--secondary-color);
 }
 
 .body-contents {
@@ -1012,7 +1017,7 @@ textarea.form-control {
 
 
 footer {
-    background-color: #fbceb5;
+    background-color: var(--secondary-color);
     color: black;
     text-align: center;
     padding: 10px 0;
